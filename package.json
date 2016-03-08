@@ -1,0 +1,26 @@
+{
+  "name": "react-native-sk-loader",
+  "version": "1.0.0",
+  "description": "Component that wrap ProgressBarAndroid in android and ActivityIndicatorIOS  in iOS, is used to indicate that the app is loading ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shigebeyond/react-native-sk-loader.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "loader",
+    "ProgressBarAndroid",
+    "ActivityIndicatorIOS"
+  ],
+  "author": "shigebeyond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shigebeyond/react-native-sk-loader/issues"
+  },
+  "homepage": "https://github.com/shigebeyond/react-native-sk-loader#readme"
+}

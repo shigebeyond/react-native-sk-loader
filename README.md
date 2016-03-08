@@ -1,7 +1,10 @@
 # react-native-sk-loader
 
 ##What is it
+
 react-native-sk-loader is a component that wrap ProgressBarAndroid in android and ActivityIndicatorIOS in iOS, is used to indicate that the app is loading
+
+It’s very simple, I write it just for loading compatibility in different platform.
 
 ##How to use it
 

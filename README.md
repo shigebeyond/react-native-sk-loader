@@ -28,4 +28,5 @@ var test = React.createClass({
 });
 
 ```
+
 3. If you want to know more, just see the source code, is very simple

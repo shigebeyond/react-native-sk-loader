@@ -6,7 +6,6 @@ var {
   ProgressBarAndroid,
   Platform
 } = React;
-var merge = require('merge');
 
 // 加载器
 var Loader = React.createClass({
@@ -23,7 +22,7 @@ var Loader = React.createClass({
     var propsAndroid = this.props;
     if(this.props.size && !this.props.styleAttr){ // 只处理size属性
       var styleAttr = (this.props.size == 'large' ? 'Large' : 'Small');
-      propsAndroid = merge(this.props, {styleAttr});
+      propsAndroid = React.addons.update(this.props, {$merge: {styleAttr}});
       delete propsAndroid.size;
     }
     return (<ProgressBarAndroid {...propsAndroid} />);

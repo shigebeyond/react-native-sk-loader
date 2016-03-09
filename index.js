@@ -6,7 +6,7 @@ var {
   ProgressBarAndroid,
   Platform
 } = React;
-var merge = require(('merge'));
+var merge = require('merge');
 
 // 加载器
 var Loader = React.createClass({

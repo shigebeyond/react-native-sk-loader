@@ -1,6 +1,6 @@
 {
   "name": "react-native-sk-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component that wrap ProgressBarAndroid in android and ActivityIndicatorIOS  in iOS, is used to indicate that the app is loading ",
   "main": "index.js",
   "scripts": {

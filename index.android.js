@@ -1,6 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
+import addons from 'react/addons';
 import {ProgressBarAndroid} from 'react-native';
 
 class Loader extends Component {
@@ -13,7 +14,7 @@ class Loader extends Component {
         var propsAndroid = this.props;
         if (this.props.size && !this.props.styleAttr) {
             var styleAttr = (this.props.size == 'large' ? 'Large' : 'Small');
-            propsAndroid = React.addons.update(this.props, {$merge: {styleAttr}});
+            propsAndroid = addons.update(this.props, {$merge: {styleAttr}});
             delete propsAndroid.size;
         }
         return (<ProgressBarAndroid {...propsAndroid} />);

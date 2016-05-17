@@ -14,21 +14,16 @@ It’s very simple, I write it just for loading compatibility in different platf
 ```javascript
 'use strict';
 
-var React = require('react-native');
-var {
-  AppRegistry,
-  View,
-  StyleSheet
-} = React;
-var SKLoader = require('react-native-sk-loader');
+import React, {Component} from 'react';
+import SKLoader from 'react-native-sk-loader';
 
-var test = React.createClass({
-  render: function(){
+class Test extends Component {
+  render() {
     return (
-      <SKLoader />
-    )
+      <SKLoader size="large" />
+    );
   }
-});
+}
 
 ```
 
